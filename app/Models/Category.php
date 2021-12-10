@@ -11,3 +11,4 @@ class Category extends Model
     Protected $fillable=['c_name','c_img'];
 
 }
+ 

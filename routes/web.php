@@ -22,7 +22,6 @@ Route::get('/Contact Us', [App\Http\Controllers\HomeController::class, 'contactu
 Route::get('/Privcy', [App\Http\Controllers\HomeController::class, 'privcy'])->name('privcy');
 Route::get('Product/{id}', [App\Http\Controllers\HomeController::class, 'show_product'])->name('product.show');
 Route::get('Category/{id}', [App\Http\Controllers\HomeController::class, 'category_product'])->name('category.product');
-
 ///user operation
 Route::middleware('auth')->group(static function () {
     //...

@@ -413,3 +413,32 @@ label#icon
         margin-left: -0.8rem;
       }
 }
+.dropdown-item
+{
+    max-height: 6vh !important;
+    text-align: center !important;
+    line-height: 26px !important;
+    border-bottom: 1px solid #2d2929;
+}
+.dropdown-menu {
+line-height: 1px;
+
+}
+.dropdown-menu.show {
+    width: 40rem ;
+}
+@media screen and (max-width: 450px)
+{
+    .grid-container {
+        grid-template-columns: 6.5rem 7.5em 6.5rem;
+        margin-left: -1.8rem;
+    }
+    .dropdown-menu {
+
+        left: -6.5rem !important;
+        font-size: 11px !important;
+    }
+    .dropdown-menu.show {
+        width: 20rem !important;
+    }
+}

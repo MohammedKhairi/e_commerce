@@ -60,14 +60,6 @@
                @endphp
              
             @endforeach
-            <thead class="thead-dark font-defult">
-               <tr class="text-center">
-                  <th scope="col"> {{__('Total Price')}}:</th>
-                  <th scope="col">  <span style="margin-right: 16px;">{{$price}}</span><span>IQD</span>   </th>
-                  <th scope="col"></th>
-                  <th scope="col"></th>
-               </tr>
-            </thead>
             </tbody>
          </table>
          
